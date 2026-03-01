@@ -1,0 +1,55 @@
+# ===========================
+# 운영체제가 자동으로 만드는 파일
+# ===========================
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# ===========================
+# 에디터 / IDE 설정 파일
+# ===========================
+
+# VSCode
+.vscode/
+*.code-workspace
+
+# JetBrains (WebStorm, IntelliJ 등)
+.idea/
+
+# ===========================
+# Node.js 관련 (나중에 npm 쓸 경우 대비)
+# ===========================
+
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# ===========================
+# 빌드 결과물 (원본 코드에서 자동 생성되는 파일)
+# ===========================
+
+dist/
+build/
+*.min.js
+
+# ===========================
+# 환경 설정 파일 (비밀번호, API 키 등 민감 정보)
+# ===========================
+
+.env
+.env.local
+.env.*.local
+
+# ===========================
+# Claude Code 설정 (로컬 전용)
+# ===========================
+
+.claude/
